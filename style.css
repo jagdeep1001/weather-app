@@ -1,0 +1,43 @@
+body{
+    background: black;
+
+}
+.form1{
+    padding-left: 400px;
+}
+.footer{
+
+    /*position: relative;*/
+    text-align: center;
+    /*bottom: -50px;*/
+    font-family: "Monotype Corsiva";
+    font-size: 14px;
+    color: whitesmoke;
+
+}
+.jumbotron{
+    border-top: 2px solid darkorange;
+    border-bottom: 2px solid darkorange;
+}
+#showWeather{
+    background: white;
+    font-family: "Monotype Corsiva";
+
+}
+.a1{
+    background: url("Images/h1.jfif");
+    height: 400px;
+}
+.box{
+    background: whitesmoke;
+    color:black;
+    border: 1px solid azure;
+    border-radius: 10px;
+}
+.f1{
+    padding-left:250px;
+}
+#forecastWeather{
+    background: whitesmoke;
+    font-family: "Monotype Corsiva";
+}

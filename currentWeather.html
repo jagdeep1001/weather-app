@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Weather App</title>
+    
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="index.html">TWS</a>
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="currentWeather.html">Current Weather</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="forecast.html">Forcast</a>
+        </li>
+
+    </ul>
+</nav>
+<div class="jumbotron jumbotron-fluid" style="margin-bottom:0px;  color:white;">
+    <h2 class="text-center text-dark" style="font-size:40px; font-weight:600; font-family: 'Monotype Corsiva'">Get Current Weather Information</h2>
+</div>
+
+<div class="container" style="height:650px;">
+    <div class="row" >
+        <div class="col-md-12" style="margin-bottom:10px;">
+
+            <span id="error" class="text-center m-2"></span>
+        </div>
+        
+        <div class="row form-group form-inline form1" >
+           
+            <input type="text" name="city" id="city" class="form-control" placeholder="Enter city name" >
+            <button id="submitCity" class="btn btn-warning m-2">Search City</button>
+        </div>
+
+    </div>
+    
+    
+    <div id="showWeather"></div>
+</div>
+<footer  class="footer bg-dark">
+    <h3>Copyright &copy; Japneet</h3>
+
+</footer>
+
+<script src="weather.js"></script>   
+      
+</body>
+</html>
